@@ -1,3 +1,44 @@
+.ancla-footer a {
+    text-decoration: none !important;
+    color: rgb(156, 156, 156);
+    position: relative;
+}
+
+.ancla-footer a i {
+    position: absolute;
+    left: -20px;
+    top: 4px;
+}
+
+.footer-informacion p {
+    position: relative;
+}
+
+.footer-informacion p i {
+    position: absolute;
+    top: 4px;
+    left: -20px;
+}
+
+.ancla-footer a:hover {
+    color: white;
+}
+
+.lista-footer li {
+    padding: 10px 0;
+    list-style: none !important;
+}
+
+.lista-footer li:hover {
+    padding-left: 8px;
+    transform: scale(1.1);
+}
+
+
+.grupo-ul ul {
+    padding-left: 0;
+}
+
 .contenedor_1 {
     width: 100%;
     height: 60vh;
@@ -22,14 +63,14 @@
 
 .footer {
     width: 100%;
-    height: 40vh;
+    min-height: 40vh;
+    height: auto;
     background-color: rgb(31, 31, 31);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
     padding: 0 20px;
-
-    color: white;
+    color: rgb(156, 156, 156);
 }
 
 .nosotros {
@@ -48,8 +89,9 @@
 
 .item {
     width: 20%;
-    height: 40vh;
-    border: 1px solid white;
+    min-height: 40vh;
+    height: auto;
+    /*border: 1px solid white; */
     padding: 20px;
 }
 
@@ -64,21 +106,21 @@ table {
     width: 70%;
 }
 
-.nav-custom {
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
-    height: 35% !important;
-}
-
 .seleccionar-boton:hover {
     background-color: rgb(6, 157, 195);
     color: white !important;
 }
 
-li a:hover {
+.ul-nav a {
+    padding: 20px 20px !important;
+}
+
+.ul-nav a:hover {
     background-color: rgb(6, 157, 195);
     color: white !important;
 }
+
+
 
 nav {
     padding-top: 0px !important;
