@@ -37,7 +37,13 @@
 }
 
 .alto-imagen {
-    height: 70vh;
+    height: auto;
+}
+
+.tamaño-slider {
+    min-height: 200px;
+    max-height: 400px;
+    height: auto;
 }
 
 .item {
@@ -56,4 +62,26 @@ table, th, td {
 
 table {
     width: 70%;
+}
+
+.nav-custom {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    height: 35% !important;
+}
+
+.seleccionar-boton:hover {
+    background-color: rgb(6, 157, 195);
+    color: white !important;
+}
+
+li a:hover {
+    background-color: rgb(6, 157, 195);
+    color: white !important;
+}
+
+nav {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    height: 35% !important;
 }
